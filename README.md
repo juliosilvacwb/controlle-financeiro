@@ -5,9 +5,9 @@ Projeto desenvolvido em mentoria de desenvolvimento de software.
 ### Requisitos
 
 - Usuario
-  Cadastro de usuário (id, nome, email, senha).
-  Acessar atraves de tela de login. (email e senha)
-  Recuperação de senha
+  - Cadastro de usuário (id, nome, email, senha).
+  - Acessar atraves de tela de login. (email e senha)
+  - Recuperação de senha
   
 - Conta 
   - Cadastro de Conta bancaria (id, instituição (banco), tipo (corrente ou poupança), agencia, numero da conta, saldo)
