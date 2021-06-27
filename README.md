@@ -15,12 +15,19 @@ recuperar sua conta, e de visualizar sua senha. <br>
 - Opção de Registro: o cliente tanbém pode se registrar através de suas contas Google, facebook ou E-mail
 
 ## 2- Interface do usuário.
-- está interface terá menus de configurações, layaout do usuário, tutoriais com passo a passo para o usuário começar a gerir suas finanças finanças
+- está interface terá menus de configurações, layaout do usuário, tutorial com passo a passo para o usuário iciante começar a gerir suas finanças no site
 
 ### Menu de configurações.
 - Este menú de configurações tera opções para o usuário sendo elas
     - Configuração do perfil: colocar ou alterar foto.  
-    - configurações da conta: altera senha, alterar e-mail, ou dados so usuário  
+    - configurações da conta: altera senha, alterar e-mail, ou dados do usuário  
     - sobre o site  
-    - ajuda ao usuário  
+    - ajuda ao usuário
+
+### Layout do usuário.
+    - em desenvolvimento no pensamento.
+
+## Sistema.
+      
+
 
