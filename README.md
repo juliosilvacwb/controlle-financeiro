@@ -1,7 +1,7 @@
 # - PROJETO CONTROLE DE FINANÇAS
 
 ## 1- Interface inicial
-- eesta interface inicial vai conter informações para o cliente de qual a proposta do site. <br>
+- está interface inicial vai conter informações para o cliente de qual a proposta do site. <br>
 tanbém vai ter opções de Login e duas opções de Registro. <br>
 
 ### Inter face de Login.
@@ -9,8 +9,7 @@ tanbém vai ter opções de Login e duas opções de Registro. <br>
 recuperar sua conta, e de visualizar sua senha. <br> 
 
 ### Interface de Registro.   
-2. Opção de registro: Está opção o cliente téra que criar uma conta, criando um nome de usuário e uma senha,  
+2. Opção de registro: Está opção o cliente téra que criar uma conta, criando um nome de usuário e uma senha, tanbém terá que inserir seus dados bém como Data de nascimento, numero de celular e E-mail.  
 
-### Interface de Registro com contas Alternativas
-tanbém terá que inserir seus dados bém como Data de nascimento, numero de celular e E-mail. <br>    
-3. Opção de Registro: o cliente tanbém pode se registrar através de suas contas Google, facebook ou E-mail   
+### Interface de Registro com contas Alternativas    
+3. Opção de Registro: o cliente tanbém pode se registrar através de suas contas Google, facebook ou E-mail
