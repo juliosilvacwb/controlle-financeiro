@@ -21,7 +21,7 @@ Projeto desenvolvido em mentoria de desenvolvimento de software.
 - Movimentações
   - Cadastro de transações. (id, tipo (pagamento ou recebimento), data e hora, valor, descrição)  
 
-- Tela Home visualizar
+- Tela Home visualizar.
   - menu (links para cadastro de conta e transações)
   - Saldo das Contas
   - menu de configurações 
