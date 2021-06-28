@@ -11,31 +11,28 @@ Projeto desenvolvido em mentoria de desenvolvimento de software.
   - Opção de registro com conta Google, Facebook, E-mail.
   
 - Conta 
-  - Cadastro de Conta bancaria (id, instituição (banco), tipo (corrente ou poupança), agencia, numero da conta, saldo)
-  - historico transaçóes
+  - Cadastro de Conta bancaria (id, instituição (banco), tipo [corrente, poupança], agencia, numero da conta, saldo)
+  - histórico transações
   - gerar comprovante
 
-- Pagamentos
-  - TED, DOC, BOLETO, PIX
-  
 - Movimentações
-  - Cadastro de transações. (id, tipo (pagamento ou recebimento), data e hora, valor, descrição)  
-
+  - Cadastro de transações. (id, tipo [pagamento, recebimento], data e hora, valor, descrição, categoria, tipoPagamento[TED, DOC, BOLETO, PIX])  
+  
+- Categorias
+  - Cadastro de categoria (id, nome, tipo[ENTRADA, SAIDA] )
+    
 - Tela Home visualizar.
-  - menu (links para cadastro de conta e transações)
+  - menu 
+    - cadastro de conta
+    - transações
+      - listar transações
+      - cadastrar transação
+    - Perfil
   - Saldo das Contas
-  - menu de configurações 
-    - Configuração do perfil
-    - configurações da conta
+  - Sobre nós 
     - ajuda ao usuário
     - sobre o site 
-    - O Sistena para começar a controlar suas finanças
 
-    ### Sistema de controle de finanças TIPO: Graficos.
-    - neste sistema o suário terá que colocar algumas informações.
-      - Salario mensal
-      - pagamento mensais a pagar tipo (luz, agua, aluguel, comida etc.. )
-      -  informar Datas dos pagamento e do salario mensal
-     - O Usuário tanbém poderá alterar quando quiser as informações
-     - Objetivo desse sistema é mostrar para o usuário quanto será seus gastos e seus rendimentos.
+### Graficos (relatórios)
+  - Criar demonstrativo grafico das movimentações baseado em categorias.
      
