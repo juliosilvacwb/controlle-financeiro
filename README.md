@@ -1,33 +1,41 @@
-# - PROJETO CONTROLE DE FINANÇAS
+# Controlle Financeiro
 
-## 1- Interface inicial.
-- está interface inicial vai conter informações para o cliente de qual a proposta do site. <br>
-tanbém vai ter opções de Login e duas opções de Registro. <br>
+Projeto desenvolvido em mentoria de desenvolvimento de software.
 
-### Inter face de Login.
-- Opção de Login: Está opção é para usuários que já se registraram, O usuário tem as opção de - <br>
-recuperar sua conta, e de visualizar sua senha. <br> 
+### Requisitos
 
-### Interface de Registro.   
-- Opção de registro: Está opção o cliente téra que criar uma conta, criando um nome de usuário e uma senha, tanbém terá que inserir seus dados bém como Data de nascimento, numero de celular e E-mail.  
+- Usuario
+  - Cadastro de usuário (id, nome, email, senha).
+  - Acessar atraves de tela de login. (email e senha)
+  - Recuperação de senha
+  - Opção de registro com conta Google, Facebook, E-mail.
+  
+- Conta 
+  - Cadastro de Conta bancaria (id, instituição (banco), tipo (corrente ou poupança), agencia, numero da conta, saldo)
+  - historico transaçóes
+  - gerar comprovante
 
-### Interface de Registro com contas Alternativas    
-- Opção de Registro: o cliente tanbém pode se registrar através de suas contas Google, facebook ou E-mail
+- Pagamentos
+  - TED, DOC, BOLETO, PIX
+  
+- Movimentações
+  - Cadastro de transações. (id, tipo (pagamento ou recebimento), data e hora, valor, descrição)  
 
-## 2- Interface do usuário.
-- está interface terá menus de configurações, layaout do usuário, tutorial com passo a passo para o usuário iciante começar a gerir suas finanças no site
-
-### Menu de configurações.
-- Este menú de configurações tera opções para o usuário sendo elas
-    - Configuração do perfil: colocar ou alterar foto.  
-    - configurações da conta: altera senha, alterar e-mail, ou dados do usuário  
-    - sobre o site  
+- Tela Home visualizar
+  - menu (links para cadastro de conta e transações)
+  - Saldo das Contas
+  - menu de configurações 
+    - Configuração do perfil
+    - configurações da conta
     - ajuda ao usuário
+    - sobre o site 
+    - O Sistena para começar a controlar suas finanças
 
-### Layout do usuário.
-    - em desenvolvimento no pensamento.
-
-## Sistema.
-      
-
-
+    ### Sistema de controle de finanças TIPO: Graficos.
+    - neste sistema o suário terá que colocar algumas informações.
+      - Salario mensal
+      - pagamento mensais a pagar tipo (luz, agua, aluguel, comida etc.. )
+      -  informar Datas dos pagamento e do salario mensal
+     - O Usuário tanbém poderá alterar quando quiser as informações
+     - Objetivo desse sistema é mostrar para o usuário quanto será seus gastos e seus rendimentos.
+     
