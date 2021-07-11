@@ -18,12 +18,13 @@ body{
 }
 
 main.container {
-    background: white;
+    background: #1C1C1C;
     border-radius: 10px;
     max-width: 360px;
     min-height: 60vh;
     padding: 1rem;
     box-shadow: 6px 6px 15px black;
+    
 }
 
 main h1 {
@@ -31,6 +32,7 @@ main h1 {
     text-align: center;
     position: relative;
     font-size: 2rem;
+    color: thistle;
 }
 
 main h1::before {
@@ -46,8 +48,8 @@ main h1::before {
 
 
 .form {
-    font-size: 0.9rem;
-    color: black;
+    font-size: 0.8rem;
+    color: white;
     display: flex;
     flex-direction: column;
     
@@ -86,19 +88,18 @@ main h1::before {
 
 }
 
-.textbox  input {
+.textbox input {
     border: none;
     outline: none;
-    font-size: 0,9rem;
-    color: rgba(0, 0, 0, 0.5)
-    margin-bottom: 23px;
+    font-size: 0.6rem;
+    margin-bottom: 10px;
     background: none;
     width: 100%;
-    
+    color: thistle;
 }
 
 .textbox  input::placeholder {
-    color: rgba(0, 0, 0, 0.6);
+    color: thistle;
 }
     
 
@@ -121,7 +122,11 @@ main h1::before {
     background: linear-gradient(to right, #252FF1, #1f7d97, #07E818 ) ;  
 }
 
+.checkbox {
+    color: white;
+    font-size: 15px;
+}
 .checkbox a {
-    color: blue;
+    color: dodgerblue;
     font-size: 13px;
 }
