@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "poppins", sans-serif;
+    
+}
+
+body{ 
+    background: linear-gradient(45deg, #252FF1, #13BDEA, #07E818);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+main.container {
+    background: #1C1C1C;
+    border-radius: 10px;
+    max-width: 360px;
+    min-height: 60vh;
+    padding: 1rem;
+    box-shadow: 6px 6px 15px black;
+    
+}
+
+main h1 {
+    margin-bottom: 2rem;
+    text-align: center;
+    position: relative;
+    font-size: 2rem;
+    color: thistle;
+}
+
+main h1::before {
+    content: '';
+    position: absolute;
+    height: 5px;
+    width: 100%;
+    bottom: 3px;
+    left: 0;
+    border-radius: 8px;
+    background: linear-gradient(45deg, #252FF1, #13BDEA, #07E818);
+}
+
+
+.form {
+    font-size: 0.8rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.textbox {
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+
+.textbox .underline::before {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    bottom: -5px;
+    left: 0;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.textbox .underline::after {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    bottom: -5px;
+    left: 0;
+    background: linear-gradient(45deg, #252FF1, #13BDEA, #07E818);
+    transform: scale(0);
+    transition: all 0.3s ease-in-out ;
+    transform-origin: left;
+}
+
+.textbox input:focus ~ .underline::after {
+    transform: scale(1);
+
+}
+
+.textbox input {
+    border: none;
+    outline: none;
+    font-size: 0.6rem;
+    margin-bottom: 10px;
+    background: none;
+    width: 100%;
+    color: thistle;
+}
+
+.textbox  input::placeholder {
+    color: thistle;
+}
+    
+
+.form input[type="submit"] {
+    width: 100%;
+    margin-bottom: 2rem;
+    padding: 0.5rem;
+    border: black;
+    border-radius: 8px;
+    background: linear-gradient(to left, #252FF1, #1f7d97, #07E818 ) ;
+    cursor: pointer;
+    color: white;
+    font-weight: 300;
+    font-size: 0,10rem;
+    transition: all 0.3s ease;
+}
+
+.form input[type="submit"]:hover {
+    letter-spacing: 0.5px;
+    background: linear-gradient(to right, #252FF1, #1f7d97, #07E818 ) ;  
+}
+
+.checkbox {
+    color: white;
+    font-size: 15px;
+}
+.checkbox a {
+    color: dodgerblue;
+    font-size: 13px;
+}
