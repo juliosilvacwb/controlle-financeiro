@@ -1,52 +1,73 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style1.css">
+    
+
     <title>Cadastro de Conta Bancaria</title>
+
 </head>
+
 <body>
-    <div id="register-form">
-        <h1>Cadastre sua conta</h1>
-        <form id="register-form">
+
+    <main class="container"> <img  align="right" width="100px" height="100px" src="C:\Users\pc\Desktop\TecnoRad\cartao.png">
+        
+        <h1>Cadastre seu Cartão</h1>
+
+
+        <div class="form">
+
+            <label form="nome">Nome</label>
             <div class="full-box">
-                <label for="cpf">CPF</label>
-                <input type="text" id="cpf" placeholder="Digite seu CPF"> 
-            </div>
-            <div class="full-box">
-                <label for="banco">Banco</label>
-                <input type="text" id="banco" placeholder="Digite o Nome do Banco"> 
-            </div>
-            <div class="full-box">
-                <label for="agencia">Agência</label>
-                <input type="text" id="agencia" placeholder="Digite a Agência"> 
+                <input type="text" name="nome" id="nome" placeholder="Digite seu Nome" required >
+                <div class="underline"></div>
             </div>
 
-            <div class="half-box">
-                <label for="conta">Conta</label>
-                <input type="text" id="conta" placeholder="Digite o numero da conta"> 
-            </div>
 
-            <div class="half-box">
-                <label for="cartao">Numero do Cartão</label>
-                <input type="text" id="cartao" placeholder="Digite o Numero do cartão"> 
-            </div>
+            <label form ="Infoconta">Informações da Conta</label> 
+            <br/>
+                <form class = "half-box">
+                    <label form ="banco">Banco:  </label>
+                    <input   type="text" name="banco" id="banco"  required/>
+                    <label form ="nbanco">N° Banco:</label>
+                    <input   type="text" name="nbanco" id="nbanco"  required/>
+                    <br/>
+                    <div class="underline"></div>
+                </form>
+                <form class = "half-box">
+                    <label form ="agencia">Agência:</label>
+                    <input   type="text" name="agencia" id="agencia"  required/>
+                    <label form ="nconta">N° Conta:</label>
+                    <input   type="text" name="nconta" id="nconta"  required/>
+                    <br/>
+                    <div class="underline"></div>
+                </form>
 
-            <label for="tipo-de-conta">Tipo de Conta</label> 
-            <select tipo de conta="select">
-                <option value="valor1">Cartão de credito</option>
-                <option value="valor2" selected>Conta corrente</option>
-                <option value="valor3">Poupança</option>
-              </select>
+                <div class="half-box">
+                    <label form ="tipo-de-conta">Tipo de Conta &nbsp;</label> 
+                    <select tipoc="select">
+                        <option value="valor1">Poupança</option>
+                        <option value="valor2" selected>Conta corrente</option>
+                      </select>
+                    </div>
+                    
+                    
+                    <div class="full-box">
+                        <label form="nome">Saldo</label>
+                        <input type="text" name="saldo" id="saldo" placeholder="Digite seu Saldo" required >
+                        <div class="underline"></div>
+                    </div>
 
-            <div class="full-box">
-                <input type="checkbox" id="agreement">
-                <label for="agreement">Eu li e aceito os termos de uso</label>
-            </div>
-            <div class="full-box">
-                <input type="submit" id="botao" value="Registrar">
-                
-            </div>
-        </form>
-  </div>
+          <input class="btn" type="submit" value="CADASTRAR">
+
+        </div>
+
+    </main>
+
 </body>
+
 </html>
