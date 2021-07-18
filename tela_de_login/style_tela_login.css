@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>tela de login</title>
-    <style>
+<style>
         body {
             background-image: linear-gradient(45deg, #252FF1, #13BDEA, #07E818);
         }
@@ -39,20 +32,4 @@
         a{
             color:dodgerblue;
         }
-    </style>   
-</head>
-<body>
-    <div>
-        <h1>login</h1>
-        <input type="text" placeholder="email">
-        <br><br>
-        <input type="password" placeholder="senha">
-        <br><br>
-        <button>enviar</button>
-        <br><br>
-        <input type="checkbox" > <label for="checkbox">mantenha-me conectado</label>
-        <br><br>
-        <a href="">esqueceu a senha?</a>
-    </div>
-</body>
-</html>
+    </style>
