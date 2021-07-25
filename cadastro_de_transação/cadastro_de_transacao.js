@@ -1,11 +1,12 @@
 function onsubmit() {
-var conta = document.querySelector("#conta").value;
-var tipoTransação = document.querySelector("#transação").value;
-var formaPagamento = document.querySelector("#pagamento").value;
-var dataEhora = document.querySelector("#datetime").value;
-var valor = document.querySelector("#text").value;
-var descrição = document.querySelector("#textarea").value;
 
-console.log(tipoTransação, formaPagamento, dataEhora, valor, descrição)
+const user = {};
+user conta = document.querySelector("#conta").value;
+user tipoTransação = document.querySelector("#transação").value;
+user formaPagamento = document.querySelector("#pagamento").value;
+user dataEhora = document.querySelector("#datetime").value;
+user valor = document.querySelector("#text").value;
+user descrição = document.querySelector("#textarea").value;
+
+console.log(user)
 }
-
