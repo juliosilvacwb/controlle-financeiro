@@ -103,13 +103,13 @@ main h1::before {
 }
     
 
-.form input[type="submit"] {
+.form input[type="button"] {
     width: 100%;
     margin-bottom: 2rem;
     padding: 0.5rem;
     border: black;
     border-radius: 8px;
-    background: linear-gradient(to left, #252FF1, #1f7d97, #07E818 ) ;
+    background: linear-gradient(to left, #252FF1, #1f7d97, #07E818 );
     cursor: pointer;
     color: white;
     font-weight: 300;
@@ -117,7 +117,7 @@ main h1::before {
     transition: all 0.3s ease;
 }
 
-.form input[type="submit"]:hover {
+.form input[type="button"]:hover {
     letter-spacing: 0.5px;
     background: linear-gradient(to right, #252FF1, #1f7d97, #07E818 ) ;  
 }
