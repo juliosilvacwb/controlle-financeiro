@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Crie sua conta</title>
+
+</head>
+
+<body>
+
+    <!-- Tela de cadastro -->
+
+    <main class="container">
+
+        <h1>Crie sua conta</h1>
+
+        <div class="form">
+
+            <label form="nome">Nome</label>
+            <div class="textbox">
+                <input type="text" name="nome" id="nome" placeholder="Digite seu Nome" required >
+                <div class="underline"></div>
+            </div>
+
+            <label form="password">Senha</label>
+            <div class="textbox">
+                <input type="password" name="password" id="password" placeholder="Digite sua Senha" required >
+                <div class="underline"></div>
+            </div>
+
+            <label form="email">Email</label>
+            <div class="textbox">
+                <input type="email" name="email" id="email" placeholder="Digite seu Email" required >
+                <div class="underline"></div>
+            </div>
+
+            <label form="date">Data de nascimento</label>
+            <div class="textbox">
+                <input type="date" name="date" id="date" placeholder="Coloque sua Data" required >
+                <div class="underline"></div>
+            </div>
+
+            <label form="number">Numero de celular</label>
+            <div class="textbox">
+                <input type="number" name="number" id="number" placeholder="Digite seu Numero" required >
+                <div class="underline"></div>
+            </div>
+
+            <input class="btn" type="button" value="CADASTRAR" onclick="onSubmit();">
+
+        </div>
+
+        <div class="checkbox">
+            <input type="checkbox" name="checkbox" id="checkbox">
+            <label for="checkbox">Li e aceito os <a href="#">Termos de privacidade</a> </label>
+        </div>
+
+    </main>
+
+</body>
+<script src="cadastro-usuario.js"></script>
+
+</html>
