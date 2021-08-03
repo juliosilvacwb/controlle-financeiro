@@ -14,7 +14,7 @@
 
 <body>
 
-    <main class="container"> <img  align="right" width="100px" height="100px" src="C:\Users\pc\Desktop\Mentoria\cartao.png">
+    <main class="container"> <img  align="right" width="100px" height="100px" src="cartao.png">
         
         <h1>Cadastre seu Cartão</h1>
 
@@ -56,10 +56,10 @@
                 </form>
 
                 <div class="half-box">
-                    <label form ="tipo-de-conta">Tipo de Conta &nbsp;</label> 
-                    <select tipoc="select">
-                        <option value="valor1">Poupança</option>
-                        <option value="valor2" selected>Conta corrente</option>
+                    <label form ="tipo-de-conta" >Tipo de Conta &nbsp;</label> 
+                    <select  id="tipodc" >
+                        <option value="poupanca" id="poupanca">Poupança</option>
+                        <option value="contaCorrente" selected id="contac">Conta corrente</option>
                       </select>
                     </div>
                     
@@ -70,12 +70,13 @@
                         <div class="underline"></div>
                     </div>
 
-          <input class="btn" type="submit" value="CADASTRAR">
+          <input class="btn" type="button" value="CADASTRAR" onclick="onSubmit();">
 
         </div>
 
     </main>
 
 </body>
+<script src="cadastro-de-conta-bancaria.js"></script>
 
 </html>
