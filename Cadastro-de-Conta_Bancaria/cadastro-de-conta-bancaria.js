@@ -9,8 +9,10 @@ function onSubmit(){
     user.agencia = document.querySelector("#agencia").value;
     user.nconta = document.querySelector("#nconta").value;
     user.digito = document.querySelector("#digito").value;
-    user.tipodc = document.querySelector("#tipodc").value;
     user.saldo = document.querySelector("#saldo").value;
 
+    const tipos = document.querySelector("#tipodc");
+    console.log(tipos.options[tipos.selectedIndex].value);
+    
     console.log(user);
 }
