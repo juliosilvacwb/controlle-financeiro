@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: "poppins", sans-serif;
-    
+    box-sizing: border-box;
 }
 
 body{ 
@@ -14,16 +14,16 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    box-sizing: border-box;
 }
 
 main.container {
     background: #1C1C1C;
     border-radius: 10px;
-    max-width: 360px;
-    min-height: 60vh;
-    padding: 1rem;
-    box-shadow: 6px 6px 15px black;
+    max-width: 350vw;
+    min-height: 40vh;
+    padding: 2rem;
+    position: fixed;
+    box-shadow: 6px 6px 15px rgb(7, 7, 7);
     
 }
 
@@ -48,7 +48,7 @@ main h1::before {
 
 
 .form {
-    font-size: 0.8rem;
+    font-size: 1rem;
     color: white;
     display: flex;
     flex-direction: column;
@@ -91,7 +91,7 @@ main h1::before {
 .textbox input {
     border: none;
     outline: none;
-    font-size: 0.6rem;
+    font-size: 0.7rem;
     margin-bottom: 10px;
     background: none;
     width: 100%;
