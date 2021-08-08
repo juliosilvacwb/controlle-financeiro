@@ -1,12 +1,12 @@
-function onsubmit() {
+function cadastrar(form){
+    const transação = {};
 
-const user = {};
-user conta = document.querySelector("#conta").value;
-user tipoTransação = document.querySelector("#transação").value;
-user formaPagamento = document.querySelector("#pagamento").value;
-user dataEhora = document.querySelector("#datetime").value;
-user valor = document.querySelector("#text").value;
-user descrição = document.querySelector("#textarea").value;
+    transação.conta = document.querySelector("#conta").value
+    transação.tipoTransação = document.querySelector("#tipoTransação").value
+    transação.pagamento = document.querySelector("#pagamento").value
+    transação.dataHora = document.querySelector("#dataHora").value
+    transação.valor = document.querySelector("#valor").value
+    transação.descricao = document.querySelector("#descricao").value
 
-console.log(user)
+    console.log(transação)
 }

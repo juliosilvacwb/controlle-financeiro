@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="cadastro_de_transacao.css">
 </head>
 <body>
-    <div>
+    <form>
         <h1>Cadastro de transação</h1><br>
         
         <label>Conta</label><br>
@@ -18,7 +18,7 @@
         </select><br><br>
 
         <label>Tipo de transação</label><br>
-        <select id="transação">
+        <select id="tipoTransação">
             <option value="pagamento">pagamento</option>
             <option value="recebimento">recebimento</option>
         </select><br><br>
@@ -32,16 +32,16 @@
         </select><br><br>
 
         <label>Data e hora</label><br>
-        <input type="datetime-local" id="datetime"><br><br>
+        <input type="datetime-local" id="dataHora"><br><br>
 
         <label>Valor</label><br>
-        <input type="text" id="text"><br><br>
+        <input type="number" id="valor"><br><br>
 
         <label>Descrição</label><br>
-        <textarea id="textarea"></textarea><br><br>
+        <textarea id="descricao"></textarea><br><br>
         
-        <input class="btn" type="button" id="enviar" onclick="onsubmit();">
-    </div>
+        <input onclick="cadastrar (this.form)" class="btn" type="button" id="enviar">
+    </form>
     <script src="cadastro_de_transacao.js"></script>
 </body>
 </html>
