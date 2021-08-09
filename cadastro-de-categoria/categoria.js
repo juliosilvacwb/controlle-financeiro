@@ -1,4 +1,7 @@
 
+$(document).ready(function(){
+    $("#pagrecval").mask("999.999.990,00", {reverse: true})
+})
 
 function onSubmit(){
     const user = {};
