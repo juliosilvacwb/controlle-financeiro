@@ -50,7 +50,7 @@
                 
             <div class="textbox">
                 <label form ="tipo-de-pagamento" class="icon" >Pagar/Receber <i class="fas fa-question-circle"></i></label> <br>
-                    <select  id="entradaousaida" >
+                    <select  id="entradaousaida">
                         <option value="pagar" id="pagar">Pagar</option>
                         <option value="receber" selected id="receber">Receber</option>
                         <input type="text" name="value" id="pagrecval" placeholder="Valor (R$)">
@@ -59,7 +59,8 @@
 
             <div class="textbox">
                 <label form ="tipo-de-categoria" class="icon" >Forma de pagamento <i class="fas fa-question-circle"></i></label> <br>
-                        <select  id="formadepagamento" >
+                        <select  id="formadepagamento"  >
+                            <option value="outra" id="outra">outra</option>
                             <option value="cartao" id="cartao">Cartão</option>
                             <option value="dinheiro" selected id="dinheiro">Dinheiro</option>
                             <option value="boleto" selected id="boleto">Boleto</option>
