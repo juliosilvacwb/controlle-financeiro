@@ -12,14 +12,16 @@
 </head>
 
 <body>
-    <main class="cotainer">
+    <main class="container">
 
                     <h2>Recuperar senha</h2>
-                    <p>digite o email que voce utilizou para criação da sua conta <br> para recuperar sua senha</p>
+                    <p>Digite o email que voce utilizou para criação da sua conta para recuperar sua senha</p>
         <div class="form">
             <div class="textbox">
-                <input type="text" id="email" class="email" placeholder="Digite seu email" /> 
-                <button type="button" class="btn btn-primary">Seguinte</button>
+                <input type="text" id="email" class="email" placeholder="Digite seu email" required /> 
+                <div class="btn">
+                    <button type="button" class="btn btn-primary" onclick="onSubmit();">Seguinte</button>
+                </div>
             </div>
         </div>
     </main>
