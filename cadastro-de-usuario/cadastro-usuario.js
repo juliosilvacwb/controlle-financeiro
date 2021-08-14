@@ -1,4 +1,4 @@
-function onSubmit() {
+ function onSubmit() {
     const user = {};
     user.nome = document.querySelector("#nome").value;
     user.senha = document.querySelector("#password").value;

@@ -6,38 +6,81 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadadstro-de-categoria</title>
 
+    <!-- STYLE CSS -->
     <link rel="stylesheet" href="style.css">
 
+    <!--FONT ICON-->
+    <link rel="stylesheet" type="text/css" href="css/fontawesome.all.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+    <link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet">
+
+    <!--BOOTSTRAP JQUERY JS-->
+    <link href="bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="..//bootstrap/js/jquery-3.3.1.min.js"></script>
+		<script type="text/javascript" src="../bootstrap/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="../bootstrap/js/jquery.mask.min.js"></script> 
 </head>
 <body>
-    <div class="header">
+    <main class="container">
+        <div class="h1">
+            <h2>CADASTRO DE CATEGORIA</h2> <br>
+        </div>
     
-    <form action="#">
-        <div class="container">
-        <h4>CADASTRE SEUS GASTOS MENSAIS</h4> <br>
-        
+        <div class="form">
+           
+            <div class="textbox">
+                <label form ="tipo-de-categoria" class="icon" >Tipo de categoria <i class="fas fa-question-circle"></i> </label> <br>
+                <select  id="tipdecategoria" >
+                    <option value="produto" id="produto">Produto</option>
+                    <option value="pessoa" selected id="pessoa">Pessoa</option>
+                    <option value="aluguel" selected id="aluguel">Aluguel</option>
+                    <option value="supermercado" selected id="supermercado">Super mercado</option>
+                    <option value="luz" selected id="luz">Luz</option>
+                    <option value="agua" selected id="agua">Água</option>
+                    <option value="combustivel" selected id="combustivel">Combustivel</option>
+                    <option value="restaurante" selected id="restaurante">Restaurante</option>
+                    <option value="viagem" selected id="viagem">Viagem</option>
+                    <option value="servicos" selected id="servicos">Serviços</option>
+                    <option value="transporte" selected id="transporte">Transporte</option>
+                    <option value="empresa" selected id="empresa">Empresa</option>
+                    <option value="outros" selected id="outros">Outros</option>
+                    <input type="text" name="value" id="nome" placeholder="Opcional">
+                  </select>
+            </div>
+                
+            <div class="textbox">
+                <label form ="tipo-de-pagamento" class="icon" >Pagar/Receber <i class="fas fa-question-circle"></i></label> <br>
+                    <select  id="entradaousaida">
+                        <option value="pagar" id="pagar">Pagar</option>
+                        <option value="receber" selected id="receber">Receber</option>
+                        <input type="text" name="value" id="pagrecval" placeholder="Valor (R$)">
+                      </select>
+            </div>
 
-        <div class="categorias" >
-        <div class="input-field">
-            <label for="categoria">CATEGORIA</label> <br>
-            <input type="texte" name="cateogoria" id="categoria">
-        </div>   
-        <div class="input-field">
-            <label for="value">VALOR </label> <br>
-            <input type="number" name="valor" id="valor">
+            <div class="textbox">
+                <label form ="tipo-de-categoria" class="icon" >Forma de pagamento <i class="fas fa-question-circle"></i></label> <br>
+                        <select  id="formadepagamento"  >
+                            <option value="outra" id="outra">outra</option>
+                            <option value="cartao" id="cartao">Cartão</option>
+                            <option value="dinheiro" selected id="dinheiro">Dinheiro</option>
+                            <option value="boleto" selected id="boleto">Boleto</option>
+                            <option value="pix" selected id="pix">Pix</option>
+                          </select>
+            </div>
+            
+            <div class="textbox">
+                <label for="datapag" class="icon" >Data do pagamento <i class="fas fa-question-circle"></i></label> <br>
+                <input type="date" name="datapag" id="datapag">
+            </div>
+
+             <div class="btn">
+                <input class="btn" type="button" value="CADASTRAR" onclick="onSubmit();">
+            </div>
+
         </div>
-        <div class="input-field">
-            <label for="categoria">DATA</label> <br>
-            <input type="date" name="data" id="data"> 
-        </div>  <div class="input-button">
-                <input class="btn" type="button" value="CADASTRAR" onclick="onSubmit();">  
-                </div>
-            </div>  
-        </div>
-    </form>
-    </div>
+
+    </main>
+
+    <script src="categoria.js"></script>
 </body>
-
-<script src="categoria.js"></script>
-
 </html>
