@@ -1,31 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
 * {
-    padding: 0;
     margin: 0;
-    border: 0;
+    padding: 0;
     font-family: "poppins", sans-serif;
     box-sizing: border-box;
 }
 
-body {
+body{ 
     background: linear-gradient(45deg, #252FF1, #13BDEA, #07E818);
     background-repeat: no-repeat;
-    min-width: 100vw;
     min-height: 100vh;
+    min-width: 100vw;
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align: center;
 }
 
 main.container {
     background: #1C1C1C;
-    border-radius: 5px;
-    max-width: 430px;
-    min-height: 310px;
+    border-radius: 10px;
+    max-width: 350vw;
+    min-height: 40vh;
     padding: 1rem;
     font-size: 10pt;
     box-shadow: 6px 6px 15px rgb(7, 7, 7);
+    
 }
 
 main h2 {
@@ -33,20 +33,9 @@ main h2 {
     text-align: center;
     position: relative;
     padding: 7px;
-    font-size: 1.2rem;
-    text-transform: uppercase;
+    font-size: 1.2em;
     color: thistle;
-} 
-
-main p {
-    margin-bottom: 1rem;
-    text-align: center;
-    position: relative;
-    padding: 7px;
-    font-family: arial;
-    font-size: 9.2pt;
-    color: white;
-} 
+}    
 
 main h2::before {
     content: '';
@@ -67,6 +56,13 @@ div.form {
     flex-direction:column;
     text-transform: uppercase;
     text-align: center;
+
+
+}
+
+.icon i {
+    color: rgb(206, 206, 236);
+    margin-left: 13px;
 }
 
 .textbox {
@@ -77,6 +73,7 @@ div.form {
 .textbox input {
     border: none;
     outline: none;
+    text-align: center;
     font-family: sans-serif; 
     font-size: 0.8rem;
     margin-bottom: 10px;
@@ -84,10 +81,47 @@ div.form {
     border-radius: 8px;
     width: 80%;
     padding: 0.7rem;
-    color: thistle;  
+    color: thistle;
+    
 }
 
+#nome input {
+    display: none;
+}
+
+.textbox input[type="date"] {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+select {
+    border: none;
+    outline: none; 
+    font-size: 0.8rem;
+    margin-bottom: 10px;   
+    border-radius: 8px;
+    text-align-last: center;
+    width: 80%;
+    padding: 0.2rem;
+    margin-top: 5px;
+    appearance: none;
+    background: white url(css/arrow.svg) no-repeat;
+    background-position: 95% 55%;
+}
 
 .btn {
-    margin-top: 5px;
+    border: none;
+    outline: none; 
+    font-size: 0.8rem;
+    margin-bottom: 10px;   
+    border-radius: 8px;
+    width: 90%;
+    padding: 0.4rem;
+    margin: auto;
+    cursor: pointer;
+}
+
+.btn :hover {
+   background:rgba(255, 255, 255, 0.719);
+
 }

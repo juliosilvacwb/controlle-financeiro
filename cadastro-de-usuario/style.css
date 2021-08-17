@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     font-family: "poppins", sans-serif;
-    
+    box-sizing: border-box;
 }
 
 body{ 
@@ -14,16 +15,16 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    box-sizing: border-box;
 }
 
 main.container {
     background: #1C1C1C;
     border-radius: 10px;
-    max-width: 360px;
-    min-height: 60vh;
-    padding: 1rem;
-    box-shadow: 6px 6px 15px black;
+    max-width: 350vw;
+    min-height: 40vh;
+    padding: 2rem;
+    position: fixed;
+    box-shadow: 6px 6px 15px rgb(7, 7, 7);
     
 }
 
@@ -48,11 +49,10 @@ main h1::before {
 
 
 .form {
-    font-size: 0.8rem;
+    font-size: 1rem;
     color: white;
     display: flex;
     flex-direction: column;
-    
 }
 
 .textbox {
@@ -91,7 +91,7 @@ main h1::before {
 .textbox input {
     border: none;
     outline: none;
-    font-size: 0.6rem;
+    font-size: 0.7rem;
     margin-bottom: 10px;
     background: none;
     width: 100%;
@@ -103,13 +103,13 @@ main h1::before {
 }
     
 
-.form input[type="submit"] {
+.form input[type="button"] {
     width: 100%;
     margin-bottom: 2rem;
     padding: 0.5rem;
     border: black;
     border-radius: 8px;
-    background: linear-gradient(to left, #252FF1, #1f7d97, #07E818 ) ;
+    background: linear-gradient(to left, #252FF1, #1f7d97, #07E818 );
     cursor: pointer;
     color: white;
     font-weight: 300;
@@ -117,7 +117,7 @@ main h1::before {
     transition: all 0.3s ease;
 }
 
-.form input[type="submit"]:hover {
+.form input[type="button"]:hover {
     letter-spacing: 0.5px;
     background: linear-gradient(to right, #252FF1, #1f7d97, #07E818 ) ;  
 }
