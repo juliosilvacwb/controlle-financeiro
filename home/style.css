@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+.boxConta{
+    margin-top: 90px;
+    margin-left: -312px;
+    width: 320px;
+    background: linear-gradient(45deg, #252FF1, #13BDEA, #07E818);
+    color: white;
+    
+}
+.conteudo{
+    display: table;
+    
+}
+
+.imagem{
+   margin-left: -20px;
+    display:table-cell;
+    float: left;
+}
+.texto{
+    margin-right: 0px;
+   
+    display: table-cell;
+    float: left;
+}
+
+
+.usuario{
+    color: white;
+    display: collun;
+    align-items: center;
+    padding-left: 30px;
+    width: 960px ;
+    margin: auto;
+    
+}
+
+
+
+.img{
+   
+    display: flex;
+    padding: 25px;
+    box-align: left;
+    width:60px;
+    height:50px;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    padding: 20px;
+  }
+  
+  .box {
+    background: linear-gradient(45deg, #252FF1, #13BDEA, #07E818);
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    color: white;
+    font-size: 14px;
+    border-radius: 5px;
+    
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "poppins", sans-serif;
+    
+}
+img{
+    filter: invert(100%);
+  
+}
+
+body{ 
+    background: linear-gradient(45deg, #252FF1, #13BDEA, #07E818);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    
+}
+
+main.container {
+    background: #000000;
+    border-radius: 10px;
+    max-width: 380px;
+    min-height: 65vh;
+    padding: 1rem;
+    box-shadow: 6px 6px 15px rgb(7, 7, 7);
+   
+    
+}
+
+main h1 {
+    margin-bottom: 2rem;
+    text-align: center;
+    position: relative;
+    font-size: 2rem;
+    color: rgb(255, 254, 254);
+}
+
+main h1::before {
+    content: '';
+    position: absolute;
+    height: 5px;
+    width: 100%;
+    bottom: -5px;
+    left: 0;
+    border-radius: 8px;
+    background: linear-gradient(45deg, #252FF1, #13BDEA, #07E818);
+    
+    
+}
+
+
+.form {
+    font-size: 0.8rem;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+
+    
+
+.form input[type="submit"] {
+    width: 100%;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border: black;
+    border-radius: 8px;
+    background: linear-gradient(to left, #252FF1, #1f7d97, #07E818 ) ;
+    cursor: pointer;
+    color: white;
+    font-weight: 300;
+    font-size: 0,10rem;
+    transition: all 0.3s ease;
+}
+
+.form input[type="submit"]:hover {
+    letter-spacing: 0.5px;
+    background: linear-gradient(to right, #252FF1, #1f7d97, #07E818 ) ;  
+}
+
