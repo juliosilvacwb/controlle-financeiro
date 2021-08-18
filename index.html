@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="js/script.js"></script>
+    <script src="script.js"></script>
     
 
     <title>Menu Principal</title>
@@ -52,13 +52,12 @@
     
             
             <div class="wrapper">
-               
-                <button class="box" onclick="window.location.href = 'http:/cadastro-de-categoria/cadastro-de-categoria.html'"><b>Cadastro De Categoria</b></button>
-                <button class="box" onclick="window.location.href = 'http:/Cadastro-de-Conta_Bancaria/cadastro-conta-bancaria.html'"><b> Cadastro de Conta</b></button>
-                <button class="box" onclick="window.location.href = 'http:/cadastro-de-usuario/cadastro-de-usuario.html'"> <b> Cadastro de Usuario</b></button>
-                <button class="box" onclick="window.location.href = 'teste'"> <b>Cartões</b></button>
-                <button class="box" onclick="window.location.href = 'http:/tela_de_login.html'"><b> Sair</b></button>
-                <button class="box" onclick="window.location.href = 'recuperar-senha.html'"><b> Recuperação de Senha</b></button>
+                <button class="box botao" onclick="redirect('cadastroCategoria')"><b>Cadastro De Categoria</b></button>
+                <button class="box" onclick="redirect('contaBancaria')"><b> Cadastro de Conta</b></button>
+                <button class="box" onclick="redirect('cadastroUsuario')"> <b> Cadastro de Usuario</b></button>
+                <button class="box" onclick="redirect('listarCartoes')""> <b>Cartões</b></button>
+                <button class="box" onclick="redirect('login')"><b> Sair</b></button>
+                <button class="box" onclick="redirect('recuperacaoSenha')"><b> Recuperação de Senha</b></button>
                 
               </div>
 

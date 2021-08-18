@@ -152,3 +152,6 @@ main h1::before {
     background: linear-gradient(to right, #252FF1, #1f7d97, #07E818 ) ;  
 }
 
+.botao {
+    cursor: pointer
+}
