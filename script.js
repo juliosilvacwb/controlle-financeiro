@@ -28,9 +28,9 @@ const links = {
   cadastroCategoria: "cadastro-de-categoria/cadastro-de-categoria.html",
   contaBancaria: "Cadastro-de-Conta_Bancaria/cadastro-conta-bancaria.html",
   cadastroUsuario: "cadastro-de-usuario/cadastro-de-usuario.html",
-  listarCartoes: "tela_de_login/tela_de_login.html",
+  transacoes: "cadastro-de-transacao/cadastro-de-transacao.html",
   login: "tela_de_login/tela_de_login.html",
-  recuperacaoSenha: "recuperar-senha/recuperacao-senha.html",
+  
 };
 
 function redirect(url) {

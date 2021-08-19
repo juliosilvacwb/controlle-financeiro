@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
-
+.boxSair{
+    background: linear-gradient(45deg, #252FF1, #13BDEA, #07E818);
+    
+    width: 320px;
+    height: 50px;
+    margin: 5px;
+    color: white;
+    font-size: 14px;
+    border-radius: 5px;
+}
 .boxConta{
     margin-top: 90px;
     margin-left: -312px;
