@@ -1,0 +1,24 @@
+{
+  "name": "mentoria",
+  "version": "1.0.0",
+  "description": "Projeto desenvolvido em mentoria de desenvolvimento de software.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juliosilvacwb/controlle-financeiro.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juliosilvacwb/controlle-financeiro/issues"
+  },
+  "homepage": "https://github.com/juliosilvacwb/controlle-financeiro#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
