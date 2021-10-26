@@ -31,12 +31,9 @@ const links = {
   transacoes: "cadastro-de-transacao/cadastro-de-transacao.html",
   login: "tela_de_login/tela_de_login.html",
   
-};
+}
 
 function redirect(url) {
   window.location.href = links[url];
 }
 
-export const URL_SERVER = "http://18.218.201.243:8080";
-
-module.exports = {URL_SERVER};

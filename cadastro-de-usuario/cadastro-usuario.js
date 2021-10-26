@@ -1,4 +1,4 @@
-// const { URL_SERVER } = require("./scriptjs");
+// const { URL_SERVER } = require("../constants.js");
 
 async function onSubmit() {
     const user = {};
@@ -13,7 +13,8 @@ async function onSubmit() {
 }
 
 async function save(user) {
-    const url = "http://18.218.201.243:8080".concat("/users");
+    // const url = "http://18.218.201.243:8080".concat("/users");
+    const url = URL_SERVER.concat(USERS);
     
     const headers = {
                         'Accept': 'application/json',
