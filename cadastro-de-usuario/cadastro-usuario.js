@@ -31,7 +31,6 @@ async function save(user) {
         .then((res) => { 
             if (res.ok) {
                 alert("Usuário cadastrado com sucesso!");
-                console.log(res);
             } else {
                 alert("Erro ao salvar usuário!");
             }
