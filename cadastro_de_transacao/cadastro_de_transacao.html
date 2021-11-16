@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>cadastro de transação</title>
+    <link rel="stylesheet" href="cadastro_de_transacao.css" />
+  </head>
+  <body>
+    <form id="form-id">
+      <h1>Cadastro de transação</h1>
+      <br />
+
+      <label>Conta</label><br />
+      <select id="conta">
+        <option value="conta 1">conta 1</option>
+        <option value="conta 2">conta 2</option></select
+      ><br /><br />
+
+      <label>Tipo de transação</label><br />
+      <select id="tipoTransação">
+        <option value="pagamento">pagamento</option>
+        <option value="recebimento">recebimento</option></select
+      ><br /><br />
+
+      <label>Forma de pagamento</label><br />
+      <select id="pagamento">
+        <option value="TED">TED</option>
+        <option value="DOC">DOC</option>
+        <option value="PIX">PIX</option>
+        <option value="boleto">boleto bancário</option></select
+      ><br /><br />
+
+      <label>Data e hora</label><br />
+      <input type="datetime-local" id="dataHora" /><br /><br />
+
+      <label>Valor</label><br />
+      <input type="number" id="valor" /><br /><br />
+
+      <label class="description">Descrição</label><br />
+      <textarea class="description"></textarea><br /><br />
+
+      <button id="submitForm" class="btn" type="button" id="enviar">
+        Cadastrar
+      </button>
+
+      <a href="/index.html">Voltar</a>
+    </form>
+    <script src="../constants.js"></script>
+    <script src="cadastro_de_transacao.js"></script>
+  </body>
+</html>
