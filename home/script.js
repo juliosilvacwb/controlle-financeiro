@@ -25,11 +25,12 @@ function toReais(amount) {
 }
 
 const links = {
-  cadastroCategoria: 'cadastro-de-categoria/cadastro-de-categoria.html',
-  contaBancaria: 'Cadastro-de-Conta_Bancaria/cadastro-conta-bancaria.html',
-  cadastroUsuario: 'cadastro-de-usuario/cadastro-de-usuario.html',
-  transacoes: 'cadastro_de_transacao/cadastro_de_transacao.html',
-  login: 'tela_de_login/tela_de_login.html'
+  cadastroCategoria: '../cadastro-de-categoria/cadastro-de-categoria.html',
+  contaBancaria: '../Cadastro-de-Conta_Bancaria/cadastro-conta-bancaria.html',
+  cadastroUsuario: '../cadastro-de-usuario/cadastro-de-usuario.html',
+  transacoes: '../cadastro_de_transacao/cadastro_de_transacao.html',
+  home: 'home/home.html',
+  login: '../index.html'
 }
 
 function redirect(url) {

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- <script src="script.js"></script> -->
+    
+    <title>Menu Principal</title>
+   
+</head>
+
+<body>
+
+    <main class="container"> 
+        
+        <h1>Pagina Inicial</h1>
+           
+           
+            <section class="usuario" id="usuario">
+                
+                <b>Olá, Thiago</b>
+                    <p>t.paes@hotmail.com</p>
+               
+                <div class="conteudo"></div>
+                    <div class="imagem">
+                    <img class="img" src="cartao.png">
+                    </div>
+                        <div class="texto">
+                            <br>
+                            <span>Cartão: 5399 1309 0641 8879 </span><br>
+                            <span>Saldo: R$ </span><span id="myAmmount">0,00</span><br>
+                            <br>
+                        </div>
+                            <button  class="boxConta" onclick="showAmount(500.1)">Mostrar saldo</button><br>
+                        
+                            <div class="imagem">
+                                <img class="img" src="cartao.png">
+                                </div>
+                                    <div class="texto">
+                                        <br>
+                                        <span>Cartão: 4916 1104 9920 7183 </span><br>
+                                        <span>Saldo: R$ </span><span id="myAmmount2">0,00</span><br>
+                                        <br>
+                                    </div>
+                                        <button  class="boxConta" onclick="showAmount2(1200.4)">Mostrar saldo</button><br>
+                </div>
+            </section>
+    
+            
+            <div class="wrapper">
+                <button class="box botao" onclick="redirect('cadastroCategoria')"><b>Cadastro De Categoria</b></button>
+                <button class="box botao" onclick="redirect('contaBancaria')"><b> Cadastro de Conta</b></button>
+                <button class="box botao" onclick="redirect('transacoes')"><b> Cadastro de Transações</b></button>
+                <button class="boxSair botao" onclick="redirect('login')"><b> Sair</b></button>
+                
+                
+              </div>
+
+              
+        </div>
+
+
+      
+
+    </main>
+
+</body>
+<script src="script.js"></script>
+
+</html>
