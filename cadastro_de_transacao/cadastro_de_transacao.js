@@ -30,7 +30,9 @@ async function transaction() {
       const body = await res.json()
       console.log(body)
       alert('Transação cadastrada com sucesso')
-      window.location.href = '/home/home.html'
+      /*window.location.href = '/home/home.html'*/
+      var formReset = document.getElementById('form-id')
+      formReset.reset()
       return
     }
 
